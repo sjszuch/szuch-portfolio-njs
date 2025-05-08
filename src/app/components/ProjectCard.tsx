@@ -18,7 +18,7 @@ interface ProjectCardProps {
 }
 
 // Mapping tech keywords to icons and labels
-const techIconMap: { [key: string]: { icon: JSX.Element; label: string } } = {
+const techIconMap: Record<string, { icon: React.ReactElement; label: string }> = {
   nextjs: { icon: <SiNextdotjs className={Styles.techIcon} />, label: "Next.js" },
   react: { icon: <FaReact className={Styles.techIcon} />, label: "React" },
   typescript: { icon: <SiTypescript className={Styles.techIcon} />, label: "TypeScript" },
