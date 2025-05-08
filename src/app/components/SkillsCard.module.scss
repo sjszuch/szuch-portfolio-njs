@@ -1,0 +1,29 @@
+.skillsCardContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  padding: 1rem;
+  margin: 1rem;
+
+  border: 1px solid #fff;
+  max-width: 30rem;
+
+  align-items: center;
+
+  gap: 1rem;
+
+  justify-content: baseline;
+
+  background-color: rgb(17, 17, 17);
+  border-radius: 10px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  gap: 5px;
+}

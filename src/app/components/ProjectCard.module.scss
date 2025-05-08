@@ -1,0 +1,83 @@
+.projectCardContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  margin: 1rem;
+
+  border: 1px solid #fff;
+  max-width: 30rem;
+
+  align-items: center;
+
+  gap: 1rem;
+
+  justify-content: baseline;
+
+  background-color: rgb(17, 17, 17);
+  border-radius: 10px;
+
+  h3 {
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 600;
+  }
+}
+
+.bottomCard {
+  padding: 0 1rem 1rem 1rem;
+}
+
+.topCard {
+  img {
+    border-radius: 10px;
+  }
+}
+
+.techIconContainer {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+  padding: 0.5rem;
+  border-radius: 20px;
+  transition: width 0.3s ease, background-color 0.3s ease;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  border: 1px solid #fff;
+  background-color: rgb(40, 40, 40);
+
+  &:hover {
+    width: 120px;
+    background-color: rgb(61, 61, 61);
+  }
+
+  p {
+    margin-left: 0.5rem;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  &:hover p {
+    opacity: 1;
+  }
+
+  .techIcon {
+    font-size: 1.5rem;
+  }
+}
+
+.techStack {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: baseline;
+  flex-wrap: wrap;
+  max-width: 100%;
+
+  gap: 5px;
+}

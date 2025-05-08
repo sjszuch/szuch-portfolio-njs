@@ -1,0 +1,30 @@
+.experienceCardContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  padding: 1rem;
+  margin: 1rem;
+
+  border: 1px solid #fff;
+  max-width: 30rem;
+
+  align-items: center;
+
+  gap: 1rem;
+
+  justify-content: baseline;
+
+  background-color: rgb(17, 17, 17);
+  border-radius: 10px;
+
+  h3 {
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 600;
+  }
+}
+
+.desc {
+  margin-top: 1rem;
+}
