@@ -1,4 +1,3 @@
-import Image from "next/image";
 import SkillsCard from "./components/SkillsCard";
 import ExperienceCard from "./components/ExperienceCard";
 import ProjectCard from "./components/ProjectCard";
