@@ -13,6 +13,8 @@ interface ProjectCardProps {
     liveDemo: string;
     github: string;
   };
+  resume?: string;
+  linkedIn?: string;
 }
 
 // Mapping tech keywords to icons and labels
@@ -57,7 +59,7 @@ const ProjectCard = ({ imageUrl, title, description, technologies, links }: Proj
           <div className={Styles.projectLinks}>
             {links.liveDemo && (
               <a href={links.liveDemo} target="_blank" rel="noopener noreferrer">
-                <button className={Styles.projectButton}>Live Demo</button>
+                <button className={Styles.projectButton}>View Site</button>
               </a>
             )}
             {links.github && (
