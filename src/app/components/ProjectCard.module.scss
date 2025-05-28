@@ -62,9 +62,19 @@
 
   p {
     margin-left: 0.5rem;
-    white-space: nowrap;
     opacity: 0;
     transition: opacity 0.3s ease;
+    white-space: normal;
+    word-break: break-word;
+    text-align: center;
+    font-size: 1rem;
+    max-width: 70px;
+    overflow-wrap: break-word;
+  }
+
+  p {
+    max-width: 60px;
+    font-size: 0.9rem;
   }
 
   &:hover p {

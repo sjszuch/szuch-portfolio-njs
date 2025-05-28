@@ -21,6 +21,19 @@ export default function Home() {
             <h3 className={Styles.sectionHeader}>Projects</h3>
 
 {/* Project Cards */}
+
+<ProjectCard 
+  imageUrl="JoltDigital.png" 
+  title="Jolt Digital Marketing" 
+  technologies={["NextJS", "Sass", "Firebase", "React"]} 
+  description="I created the Jolt Digital site as a way to showcase my services to businesses and artists alike. From web development to
+  social media management, Jolt has you covered." 
+  links={{
+    liveDemo: "https://www.joltforyou.com/",
+    github: ""
+  }}
+/>
+
 <ProjectCard 
   imageUrl="HaikuRiver.png" 
   title="Haiku River" 
@@ -33,20 +46,8 @@ export default function Home() {
   }}
 />
 
-{/* <ProjectCard 
-  imageUrl="JoltDigital.png" 
-  title="Jolt Digital Marketing" 
-  technologies={["NextJS", "Sass", "Firebase"]} 
-  description="As the founder of Jolt Digital Marketing, I pride myself on creating beautiful and modern designs for clients.
-  Working alongside clients to develop their brand identity and online presence is my passion, especially when it comes to small/local businesses
-  and artists." 
-  links={{
-    liveDemo: "",
-    github: ""
-  }}
-/> */}
 
-<ProjectCard 
+{/* <ProjectCard 
   imageUrl="Shopular.png" 
   title="Shopular" 
   technologies={["Angular", "Sass", "Firebase"]} 
@@ -57,7 +58,7 @@ export default function Home() {
     liveDemo: "",
     github: ""
   }}
-/>
+/> */}
 
 {/* <ProjectCard 
   imageUrl="CrunchTap.png" 
