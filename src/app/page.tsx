@@ -33,7 +33,7 @@ export default function Home() {
   }}
 />
 
-<ProjectCard 
+{/* <ProjectCard 
   imageUrl="JoltDigital.png" 
   title="Jolt Digital Marketing" 
   technologies={["NextJS", "Sass", "Firebase"]} 
@@ -44,7 +44,7 @@ export default function Home() {
     liveDemo: "",
     github: ""
   }}
-/>
+/> */}
 
 <ProjectCard 
   imageUrl="Shopular.png" 
@@ -59,7 +59,7 @@ export default function Home() {
   }}
 />
 
-<ProjectCard 
+{/* <ProjectCard 
   imageUrl="CrunchTap.png" 
   title="Crunch Tap" 
   technologies={["NextJS", "Sass", "Firebase"]} 
@@ -69,7 +69,7 @@ export default function Home() {
     liveDemo: "",
     github: ""
   }}
-/>
+/> */}
 
       {/* Experience */}
       <h3 className={Styles.sectionHeader}>Education</h3>
