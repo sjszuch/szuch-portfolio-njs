@@ -77,7 +77,7 @@ export default function Home() {
       {/* Master's in PR */}
       <div className="experience">
         <ExperienceCard 
-          position="Master's of PR, Social Media, and Advertising" 
+          position="M.A. in PR, Social Media, and Advertising" 
           company="POINT PARK UNIVERSITY" 
           duration="May 2027" 
           description="Continued education at Point Park University to achieve a Master's Degree. Expected graduation in May 2027."
@@ -87,7 +87,7 @@ export default function Home() {
       {/* Bachelor's in CS */}
       <div className="experience">
         <ExperienceCard 
-          position="Bachelor's of Computer Science" 
+          position="B.S. in Computer Science" 
           company="POINT PARK UNIVERSITY" 
           duration="May 2025" 
           description="Achieved a Bachelor's Degree of Computer Science at Point Park in June 2024."
@@ -130,7 +130,7 @@ export default function Home() {
       {/* Staples */}
       <div className="experience">
         <ExperienceCard 
-          position="Technical Specialist" 
+          position="Technical Supervisor" 
           company="STAPLES" 
           duration="" 
           description="At the electronics and office supply store Staples, I was responsible for the repair and maintenance of customers' computers, printers, and other devices. Besides PC tune-ups and virus removal, I also matched customers with the best products for their specific needs, provided demonstrations, and managed company metrics like rewards sign-ups, warranty goals, and sales."
